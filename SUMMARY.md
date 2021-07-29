@@ -24,6 +24,10 @@
 
 * [Governance Token](tokennomics/governance-token.md)
 
+## Test
+
+* [Test](tokennomics/governance-token.md)
+
 ## Reference
 
 * [Terminology](reference/terminology.md)

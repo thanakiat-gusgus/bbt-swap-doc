@@ -26,7 +26,7 @@
 
 ## Test
 
-* [Test](test/governance-token.md)
+* [Test](tokennomics/governance-token.md)
 
 ## Reference
 

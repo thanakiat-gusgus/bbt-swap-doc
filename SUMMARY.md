@@ -5,8 +5,8 @@
 ## Codebase Structure
 
 * [Toolkit](codebase-structure/toolkit/README.md)
-  * [SDK](codebase-structure/toolkit/sdk.md)
   * [UIKit](codebase-structure/toolkit/uikit.md)
+  * [SDK](codebase-structure/toolkit/sdk.md)
 * [Configuration](codebase-structure/configuration/README.md)
   * [Network](codebase-structure/configuration/network.md)
   * [Tokens](codebase-structure/configuration/tokens.md)
@@ -14,15 +14,15 @@
 
 ## Smart Contract
 
-* [Periphery](smart-contract/periphery/README.md)
-  * [Router](smart-contract/periphery/router.md)
 * [Core](smart-contract/core/README.md)
   * [Factory](smart-contract/core/factory.md)
   * [Pair](smart-contract/core/pair.md)
+* [Periphery](smart-contract/periphery/README.md)
+  * [Router](smart-contract/periphery/router.md)
 
 ## Tokennomics
 
-* [BBT DeFi Test](tokennomics/bbt-defi-test.md)
+* [Governance Token](tokennomics/governance-token.md)
 
 ## Reference
 

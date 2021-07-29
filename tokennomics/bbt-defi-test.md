@@ -1,2 +1,0 @@
-# BBT DeFi Test
-

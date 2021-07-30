@@ -19,11 +19,12 @@
   * [Pair](smart-contract/core/pair.md)
 * [Periphery](smart-contract/periphery/README.md)
   * [Router](smart-contract/periphery/router.md)
+* [MasterChef](smart-contract/masterchef.md)
+* [Lottery](smart-contract/lottery.md)
 
 ## Tokennomics
 
 * [Governance Token](tokennomics/governance-token.md)
-
 
 ## Reference
 

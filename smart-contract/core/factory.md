@@ -12,6 +12,17 @@ Factory defines the generic logic for generating pools. Where a pool is referred
 
 Our `PancakeFactory` is deployed at `0x384e8898B437953257265E65F32201cDF100ae5C`
 
+## Setup Your Address
+
+In order to work with the deployed smart contract, the `FACTORY_ADDRESS` and `INIT_CODE_HASH` constants within a node module called SDK should be configured accordingly. 
+
+{% code title="@sdk/src/constants.ts" %}
+```javascript
+export const FACTORY_ADDRESS = '<Factory Contract Address>'
+export const INIT_CODE_HASH = '0x<Init Code Hash>'
+```
+{% endcode %}
+
 ## Functions
 
 ### Read-Only Function
@@ -83,12 +94,3 @@ event PairCreated(address indexed token0, address indexed token1, address pair, 
 ```
 
 Emitted whenever a `createPair` creates a new pair. `token0` will appear before `token1` in sort order. The final `uint` log value will be `1` for the first pair created, `2` for the second, etc.
-
-## Setup Your Address
-
-{% code title="@sdk/src/constants.ts" %}
-```text
-export const FACTORY_ADDRESS = '<Factory Contract Address>
-export const INIT_CODE_HASH = '<Init code hash>'
-```
-{% endcode %}

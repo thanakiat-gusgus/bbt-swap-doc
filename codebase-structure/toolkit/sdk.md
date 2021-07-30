@@ -9,7 +9,7 @@ Change
 2 .gitignore
 Delete dist from this file
 
-3. package.json
+3.package.json
 change "repository": choose be your HTTP sdk github link
 
 Terminal

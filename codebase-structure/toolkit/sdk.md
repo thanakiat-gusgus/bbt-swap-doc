@@ -1,15 +1,15 @@
 # SDK
 
-1.\src\constants.ts path
+.\src\constants.ts path
 Change 
 - chainId (Mainnet, Testnet)
 - FACTORY_ADDRESS
 - INIT_CODE_HASH
 
-2 .gitignore
+.gitignore
 Delete dist from this file
 
-3.package.json
+package.json
 change "repository": choose be your HTTP sdk github link
 
 Terminal

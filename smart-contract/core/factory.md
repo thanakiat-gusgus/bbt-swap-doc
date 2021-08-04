@@ -14,7 +14,7 @@ Our `PancakeFactory` is deployed at `0x384e8898B437953257265E65F32201cDF100ae5C`
 
 ## Setup Your Address
 
-In order to work with the deployed smart contract, the `FACTORY_ADDRESS` and `INIT_CODE_HASH` constants within a node module called SDK should be configured accordingly. 
+In order to work with the deployed smart contract, the `FACTORY_ADDRESS` and `INIT_CODE_HASH` constants within a node module called SDK should be configured accordingly.
 
 {% code title="@sdk/src/constants.ts" %}
 ```javascript
@@ -87,10 +87,11 @@ Sets address for permission to adjust `feeTo`.
 
 ### Events
 
-#### • PairCreated 
+#### • PairCreated
 
 ```javascript
 event PairCreated(address indexed token0, address indexed token1, address pair, uint);
 ```
 
 Emitted whenever a `createPair` creates a new pair. `token0` will appear before `token1` in sort order. The final `uint` log value will be `1` for the first pair created, `2` for the second, etc.
+

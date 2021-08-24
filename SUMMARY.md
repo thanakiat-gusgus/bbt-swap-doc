@@ -18,7 +18,7 @@
   * [Factory](smart-contract/core/factory.md)
   * [Pair](smart-contract/core/pair.md)
 * [Periphery](smart-contract/periphery/README.md)
-  * [Router](smart-contract/periphery/router.md)
+  * [Router01](smart-contract/periphery/router01.md)
 * [MasterChef](smart-contract/masterchef.md)
 * [Lottery](smart-contract/lottery.md)
 
